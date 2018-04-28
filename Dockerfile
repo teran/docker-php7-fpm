@@ -6,14 +6,18 @@ LABEL description="nginx and php7-fpm"
 
 RUN apt-get update && \
     apt-get install -y --no-install-suggests --no-install-recommends \
+      ca-certificates \
+      gnupg \
       nginx \
       nginx-common \
       nginx-full \
       php-apcu \
       php-fpm \
       php-gd \
+      php-mbstring \
       php-memcache \
       php-mysql \
+      php-xml \
       supervisor \
       wget && \
     apt-get clean && \
