@@ -8,10 +8,10 @@ EXPOSE 80
 RUN apt-get update && \
     apt-get install -y --no-install-suggests --no-install-recommends \
       ca-certificates=20180409 \
-      gnupg=2.2.4-1ubuntu1.1 \
-      nginx=1.14.0-0ubuntu1.1 \
-      nginx-common=1.14.0-0ubuntu1.1 \
-      nginx-full=1.14.0-0ubuntu1.1 \
+      gnupg=2.2.4-1ubuntu1.2 \
+      nginx=1.14.0-0ubuntu1.2 \
+      nginx-common=1.14.0-0ubuntu1.2 \
+      nginx-full=1.14.0-0ubuntu1.2 \
       php-apcu=5.1.9+4.0.11-1build1 \
       php-fpm=1:7.2+60ubuntu1 \
       php-gd=1:7.2+60ubuntu1 \
